@@ -9,7 +9,7 @@
     "start": "node src/server.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master",
-    "lint": "eslint \"src/**/*.{js}\" --quiet",
+    "lint": "eslint \"src/**/*.js\" --quiet",
     "format": "prettier \"src/**/*.{js, json}\" --write"
   },
   "keywords": [],
